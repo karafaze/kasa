@@ -1,9 +1,9 @@
 import React from "react";
 
-import arrowDown from "../../images/arrow/arrow-down.svg";
-import arrowUp from "../../images/arrow/arrow-up.svg";
-import arrowLeft from '../../images/arrow/arrow-left.svg';
-import arrowRight from '../../images/arrow/arrow-right.svg';
+import arrowDown from "../../images/arrow-down.svg";
+import arrowUp from "../../images/arrow-up.svg";
+import arrowLeft from '../../images/arrow-left.svg';
+import arrowRight from '../../images/arrow-right.svg';
 
 import "./arrow.css";
 

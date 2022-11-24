@@ -1,8 +1,8 @@
 import React from "react";
-import mobileBannerHome from "../../images/banner/mobile-banner-home.svg";
-import desktopBannerHome from "../../images/banner/desktop-banner-home.svg";
-import mobileBannerAbout from '../../images/banner/mobile-banner-about.svg'
-import desktopBannerAbout from '../../images/banner/desktop-banner-about.svg'
+import mobileBannerHome from "../../images/mobile-banner-home.svg";
+import desktopBannerHome from "../../images/desktop-banner-home.svg";
+import mobileBannerAbout from '../../images/mobile-banner-about.png'
+import desktopBannerAbout from '../../images/desktop-banner-about.png'
 
 import "./banner.css";
 

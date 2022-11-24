@@ -1,6 +1,6 @@
 import React from "react";
-import emptyStar from "../../images/star/empty-star.svg";
-import filledStar from "../../images/star/filled-star.svg";
+import emptyStar from "../../images/empty-star.svg";
+import filledStar from "../../images/filled-star.svg";
 
 import "./star.css";
 
