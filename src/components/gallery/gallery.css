@@ -1,0 +1,19 @@
+.card--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    background-color: #fff;
+    border-radius: .8em;
+}
+
+@media screen and (min-width:768px){
+    .card--container{
+        padding: 2.5em;
+        gap: 2.5em;
+        background-color: #F6F6F6;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

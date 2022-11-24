@@ -1,0 +1,27 @@
+.navbar__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+}
+
+.navbar__items > * {
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar__items > * {
+        text-transform: none;
+        font-size: 1.3em;
+    }
+}
+
+.navbar__items > *:hover {
+    text-decoration: underline;
+}

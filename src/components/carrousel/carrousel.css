@@ -1,0 +1,32 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.carrousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 15em; */
+    height: 255px;
+    padding: 0 1em;
+    border-radius: 1em
+}
+
+.carrousel > img{
+    cursor:pointer;
+    height: 20%;
+}
+
+.carrousel--page{
+    align-self: flex-end;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    margin-bottom: .3em;
+}
+
+@media screen and (min-width:992px){
+    .carrousel{
+        /* height: 28em; */
+        height: 415px;
+    }
+}

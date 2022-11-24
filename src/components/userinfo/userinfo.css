@@ -1,0 +1,16 @@
+.user--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.user--name{
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.user--picture{
+    width: 30%;
+    border-radius: 50%;
+}

@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 1em;
+    position: relative;
+    width: 100%;
+}
+
+.card--img{
+    border-radius: .8em;
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+.card--title{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    max-width: 60%;
+    position: absolute;
+    bottom: .01em;
+    left: .5em;
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgba(0,0,0,.4);
+}
+
+@media screen and (min-width:768px){
+    .card{
+        flex: 1 1 40%
+    }
+    .card--img{
+        height: 18em;
+    }
+    .card--title{
+        font-size: 1.3em;
+        bottom: .6em;
+    }
+}
+
+@media screen and (min-width:992px){
+    .card{
+        flex: 1 1 30%
+    }
+    .card--img{
+        height: 20em;
+    }
+    .card--title{
+        font-size: 1.2em;
+    }
+}

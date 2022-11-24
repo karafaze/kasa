@@ -1,0 +1,14 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin:0
+}
+
+main{
+  margin: 1em 2.5em;
+}

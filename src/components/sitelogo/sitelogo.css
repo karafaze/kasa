@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.6em;
+}
+.logo[class~="header-theme"] {
+    margin-right: auto;
+}
+
+.logo--group {
+    position: relative;
+    top: 4px;
+}
+
+.logo--group > img:last-child {
+    position: absolute;
+    top: 38px;
+    left: 34px;
+}
+
+.logo--group[class~="footer-theme"] > img:last-child {
+    top: 19px;
+    left: 20px;
+}
