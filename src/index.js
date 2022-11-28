@@ -6,6 +6,7 @@ import App from "./App";
 
 const rootElement = createRoot(document.querySelector("#root"));
 
+// wraps App component with BrowserRouter Component
 rootElement.render(
     <Router>
         <App />

@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 import "./card.css";
 
+// handle housings card for homepage
 export default function Card(props) {
+    // retrieving infos to be used for card creation
     const { id, cover, title } = props.cardInfo;
 
     return (

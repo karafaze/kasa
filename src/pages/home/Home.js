@@ -5,6 +5,7 @@ import Gallery from "../../components/gallery/Gallery";
 import "./home.css";
 
 export default function Home() {
+    // setting document title
     document.title = 'Homepage'
     return (
         <main>

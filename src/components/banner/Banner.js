@@ -6,7 +6,9 @@ import desktopBannerAbout from '../../images/desktop-banner-about.png'
 
 import "./banner.css";
 
+// handle banners for the app
 export default function Banner(props) {
+    // given the prop (homePage/aboutPage), determine which images to use
     const mobileImage = props.for === 'home' ? mobileBannerHome : mobileBannerAbout;
     const desktopImage = props.for === 'home' ? desktopBannerHome : desktopBannerAbout;
     return (

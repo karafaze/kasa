@@ -2,7 +2,9 @@ import React from 'react'
 
 import './userinfo.css'
 
+// handle user info
 export default function UserInfo(props){
+    // receives data from props and destructure it
     const {name: userName, picture: userPicture} = props.userDetail
 
     return (

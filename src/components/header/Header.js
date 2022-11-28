@@ -4,6 +4,7 @@ import SiteLogo from "../sitelogo/SiteLogo";
 
 import "./header.css";
 
+// handles header for the app
 export default function Header() {
     return (
         <header>

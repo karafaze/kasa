@@ -5,7 +5,9 @@ import { nanoid } from "nanoid";
 
 import "./gallery.css";
 
+// handles all the cards display for the homepage
 export default function Gallery() {
+    // maps all the housing data and generates card item for each of them
     const allHousing = datas.map((house) => {
         const cardInfo = {
             id: house.id,

@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 
 import "./navitems.css";
 
+// handles the navbar items for the header
 export default function NavItem() {
+    // will underline one of the 2 navbar item if current page matches
     const activeStyle = {
         textDecoration: "underline",
     };

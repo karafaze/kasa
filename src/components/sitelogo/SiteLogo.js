@@ -12,7 +12,9 @@ import white_logo2 from "../../images/logo2_white.svg";
 
 import './sitelogo.css'
 
+// handles site logo for the app 
 export default function SiteLogo(props) {
+    // first, we create and object containing elements for header logo and footer logo
     const logoObject = {
         header: {
             letter_a: pink_letter_a,
@@ -29,8 +31,11 @@ export default function SiteLogo(props) {
             logo2: white_logo2,
         },
     };
-
+    // given the location received as a prop
+    // we retrieve the images we will be using
     const logos = logoObject[props.location];
+
+    // setting a class attribute for header|footer 
     const location = `${props.location}-theme`;
 
     return (

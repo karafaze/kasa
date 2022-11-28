@@ -3,6 +3,7 @@ import SiteLogo from "../sitelogo/SiteLogo";
 
 import "./footer.css";
 
+// handles footer for the app
 export default function Footer() {
     return (
         <footer>

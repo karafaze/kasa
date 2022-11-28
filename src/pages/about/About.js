@@ -6,6 +6,7 @@ import kasaData from '../../datas-about.json'
 import './about.css'
 
 export default function About(){
+    // setting document title
     document.title = 'About us'
     return (
         <main>

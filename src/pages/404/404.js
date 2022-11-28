@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './404.css';
 
 export default function NotFound(){
+    // setting document title
     document.title = 'Not Found'
     return (
         <main className='main--wrapper'>
