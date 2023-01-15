@@ -12,7 +12,7 @@ export default function UserInfo(props){
             <h3 className='user--name'>{userName}</h3>
             <img 
                 className='user--picture'
-                alt="user-detail-picture" 
+                alt="user-detail-face" 
                 src={userPicture}
             ></img>
         </div>

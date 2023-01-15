@@ -11,7 +11,7 @@ export default function Carrousel(props) {
     // handling page to be displayed
     const [currentPage, setCurrentPage] = React.useState(1)
     // handling picture to be displayed
-    const [currentPicture, setCurrentPicture] = React.useState(allPictures[currentPage+1])
+    const [currentPicture, setCurrentPicture] = React.useState(allPictures[currentPage])
     // handling if we show arrows/number of pages
     const [showSlides, setShowSlides] = React.useState(true)
     const maxPage = allPictures.length;
@@ -28,7 +28,7 @@ export default function Carrousel(props) {
         if (maxPage <= 1){
             setShowSlides(false)
         }
-    }, [currentPage, maxPage])
+    }, [currentPage, maxPage, allPictures])
 
     // functions to increment/decrement current page
     // using maxPage and minPage constants
