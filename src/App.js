@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -10,11 +10,14 @@ import NotFound from './pages/404/404.js';
 import "./style/index.css";
 
 export default function App() {
+    const location = useLocation()
+    console.log(location)
     return (
         <React.Fragment>
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/kasa" element={<Home />} />
                 <Route path="/housing/:housingId" element={<Housing />} />
                 <Route path="/about" element={<About />} />
                 <Route path="*" element={<NotFound />} />

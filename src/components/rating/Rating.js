@@ -1,7 +1,7 @@
 import React from "react";
 import Star from "../star/Star";
 import { nanoid } from "nanoid";
-
+import './rating.css'
 // handles ratings for the housings
 export default function Rating(props) {
     // receives rating as a props and turns it into a Number

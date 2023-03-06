@@ -1,0 +1,6 @@
+.rating--container{
+    display: flex;
+    justify-content: center;
+    gap: .2em;
+    width: 7.5em;
+}
