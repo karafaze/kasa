@@ -10,8 +10,6 @@ import NotFound from './pages/404/404.js';
 import "./style/index.css";
 
 export default function App() {
-    const location = useLocation()
-    console.log(location)
     return (
         <React.Fragment>
             <Header />
